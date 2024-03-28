@@ -1,0 +1,36 @@
+#Búqueda No Informada
+Búsqueda en Profundidad (DFS)
+
+#Búqueda No Informada
+Primero El Mejor
+
+#Búqueda Local
+Escalada De Colina
+
+
+Puntos en el mapa
+Oradea: (6,9)
+Zerind: (4,12)
+Arad: (3,15)
+Timisoara: (4,25)
+Lugoj: (16,27)
+Mehadia: (18,32)
+Dobreta: (14,3)
+Craiova: (40,37)
+Rimnicu Vilcea: (37,24)
+Sibiu: (34,18)
+
+Beneficios por Nodo
+Oradea: 20 $
+Zerind: 120 $
+Arad: 50 $
+Timisoara: 20 $
+Lugoj: 15 $
+Mehadia: 100 $
+Dobreta: 250 $
+Craiova: 300 $
+Rimnicu Vilcea: 125 $
+Sibiu: 80 $
+
+Costo Permitido 500$
+

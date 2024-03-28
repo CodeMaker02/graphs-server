@@ -1,0 +1,2226 @@
+#Body
+{
+  "nodoInicial": {"id": 8},
+  "nodoFinal": {"id": 15}
+}
+
+#Nodo
+{
+  "posicionX": 30,
+  "posicionY": 50,
+  "ciudad": {
+    "nombre": "Paris"
+  },
+  "grafo": {
+    "id": 1
+  }
+}
+
+#Arista
+{
+  "tipo": "Dirigida",
+  "grafo": {
+    "id": 1
+  },
+  "nodoOrigen": {
+    "id": 6
+  },
+  "nodoObjetivo": {
+    "id": 7
+  }
+}
+
+#Nodos
+[
+  {
+    "id": 8,
+    "posicionX": 6,
+    "posicionY": 9,
+    "grafoId": 2,
+    "ciudad": {
+      "id": 9,
+      "nombre": "Oradea"
+    }
+  },
+  {
+    "id": 9,
+    "posicionX": 4,
+    "posicionY": 12,
+    "grafoId": 2,
+    "ciudad": {
+      "id": 10,
+      "nombre": "Zerind"
+    }
+  },
+  {
+    "id": 10,
+    "posicionX": 3,
+    "posicionY": 15,
+    "grafoId": 2,
+    "ciudad": {
+      "id": 11,
+      "nombre": "Arad"
+    }
+  },
+  {
+    "id": 11,
+    "posicionX": 4,
+    "posicionY": 25,
+    "grafoId": 2,
+    "ciudad": {
+      "id": 12,
+      "nombre": "Timisoara"
+    }
+  },
+  {
+    "id": 12,
+    "posicionX": 16,
+    "posicionY": 27,
+    "grafoId": 2,
+    "ciudad": {
+      "id": 13,
+      "nombre": "Lugoj"
+    }
+  },
+  {
+    "id": 13,
+    "posicionX": 18,
+    "posicionY": 32,
+    "grafoId": 2,
+    "ciudad": {
+      "id": 14,
+      "nombre": "Melhadia"
+    }
+  },
+  {
+    "id": 14,
+    "posicionX": 14,
+    "posicionY": 33,
+    "grafoId": 2,
+    "ciudad": {
+      "id": 15,
+      "nombre": "Dobreta"
+    }
+  },
+  {
+    "id": 15,
+    "posicionX": 40,
+    "posicionY": 37,
+    "grafoId": 2,
+    "ciudad": {
+      "id": 16,
+      "nombre": "Craiova"
+    }
+  },
+  {
+    "id": 16,
+    "posicionX": 37,
+    "posicionY": 24,
+    "grafoId": 2,
+    "ciudad": {
+      "id": 17,
+      "nombre": "Rimnicu Vilcea"
+    }
+  },
+  {
+    "id": 17,
+    "posicionX": 34,
+    "posicionY": 18,
+    "grafoId": 2,
+    "ciudad": {
+      "id": 18,
+      "nombre": "Sibiu"
+    }
+  }
+]
+
+#Aristas
+
+[
+  {
+    "id": 3,
+    "tipo": "Dirigida",
+    "ponderacion": 71,
+    "grafoId": 2,
+    "nodoOrigenId": 8,
+    "nodoObjetivoId": 9,
+    "nodoOrigen": {
+      "id": 8,
+      "posicionX": 6,
+      "posicionY": 9,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 9,
+        "nombre": "Oradea"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 9,
+      "posicionX": 4,
+      "posicionY": 12,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 10,
+        "nombre": "Zerind"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "tipo": "Dirigida",
+    "ponderacion": 75,
+    "grafoId": 2,
+    "nodoOrigenId": 9,
+    "nodoObjetivoId": 10,
+    "nodoOrigen": {
+      "id": 9,
+      "posicionX": 4,
+      "posicionY": 12,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 10,
+        "nombre": "Zerind"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 10,
+      "posicionX": 3,
+      "posicionY": 15,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 11,
+        "nombre": "Arad"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "tipo": "Dirigida",
+    "ponderacion": 118,
+    "grafoId": 2,
+    "nodoOrigenId": 10,
+    "nodoObjetivoId": 11,
+    "nodoOrigen": {
+      "id": 10,
+      "posicionX": 3,
+      "posicionY": 15,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 11,
+        "nombre": "Arad"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 11,
+      "posicionX": 4,
+      "posicionY": 25,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 12,
+        "nombre": "Timisoara"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "tipo": "Dirigida",
+    "ponderacion": 111,
+    "grafoId": 2,
+    "nodoOrigenId": 11,
+    "nodoObjetivoId": 12,
+    "nodoOrigen": {
+      "id": 11,
+      "posicionX": 4,
+      "posicionY": 25,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 12,
+        "nombre": "Timisoara"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 12,
+      "posicionX": 16,
+      "posicionY": 27,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 13,
+        "nombre": "Lugoj"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "tipo": "Dirigida",
+    "ponderacion": 70,
+    "grafoId": 2,
+    "nodoOrigenId": 12,
+    "nodoObjetivoId": 13,
+    "nodoOrigen": {
+      "id": 12,
+      "posicionX": 16,
+      "posicionY": 27,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 13,
+        "nombre": "Lugoj"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 13,
+      "posicionX": 18,
+      "posicionY": 32,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 14,
+        "nombre": "Melhadia"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "tipo": "Dirigida",
+    "ponderacion": 75,
+    "grafoId": 2,
+    "nodoOrigenId": 13,
+    "nodoObjetivoId": 14,
+    "nodoOrigen": {
+      "id": 13,
+      "posicionX": 18,
+      "posicionY": 32,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 14,
+        "nombre": "Melhadia"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 14,
+      "posicionX": 14,
+      "posicionY": 33,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 15,
+        "nombre": "Dobreta"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "tipo": "Dirigida",
+    "ponderacion": 120,
+    "grafoId": 2,
+    "nodoOrigenId": 14,
+    "nodoObjetivoId": 15,
+    "nodoOrigen": {
+      "id": 14,
+      "posicionX": 14,
+      "posicionY": 33,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 15,
+        "nombre": "Dobreta"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 15,
+      "posicionX": 40,
+      "posicionY": 37,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 16,
+        "nombre": "Craiova"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "tipo": "Dirigida",
+    "ponderacion": 146,
+    "grafoId": 2,
+    "nodoOrigenId": 15,
+    "nodoObjetivoId": 16,
+    "nodoOrigen": {
+      "id": 15,
+      "posicionX": 40,
+      "posicionY": 37,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 16,
+        "nombre": "Craiova"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 16,
+      "posicionX": 37,
+      "posicionY": 24,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 17,
+        "nombre": "Rimnicu Vilcea"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "tipo": "Dirigida",
+    "ponderacion": 80,
+    "grafoId": 2,
+    "nodoOrigenId": 16,
+    "nodoObjetivoId": 17,
+    "nodoOrigen": {
+      "id": 16,
+      "posicionX": 37,
+      "posicionY": 24,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 17,
+        "nombre": "Rimnicu Vilcea"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 17,
+      "posicionX": 34,
+      "posicionY": 18,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 18,
+        "nombre": "Sibiu"
+      }
+    }
+  },
+  {
+    "id": 12,
+    "tipo": "Dirigida",
+    "ponderacion": 140,
+    "grafoId": 2,
+    "nodoOrigenId": 17,
+    "nodoObjetivoId": 10,
+    "nodoOrigen": {
+      "id": 17,
+      "posicionX": 34,
+      "posicionY": 18,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 18,
+        "nombre": "Sibiu"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 10,
+      "posicionX": 3,
+      "posicionY": 15,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 11,
+        "nombre": "Arad"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "tipo": "Dirigida",
+    "ponderacion": 140,
+    "grafoId": 2,
+    "nodoOrigenId": 10,
+    "nodoObjetivoId": 17,
+    "nodoOrigen": {
+      "id": 10,
+      "posicionX": 3,
+      "posicionY": 15,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 11,
+        "nombre": "Arad"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 17,
+      "posicionX": 34,
+      "posicionY": 18,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 18,
+        "nombre": "Sibiu"
+      }
+    }
+  },
+  {
+    "id": 14,
+    "tipo": "Dirigida",
+    "ponderacion": 151,
+    "grafoId": 2,
+    "nodoOrigenId": 17,
+    "nodoObjetivoId": 8,
+    "nodoOrigen": {
+      "id": 17,
+      "posicionX": 34,
+      "posicionY": 18,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 18,
+        "nombre": "Sibiu"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 8,
+      "posicionX": 6,
+      "posicionY": 9,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 9,
+        "nombre": "Oradea"
+      }
+    }
+  },
+  {
+    "id": 15,
+    "tipo": "Dirigida",
+    "ponderacion": 151,
+    "grafoId": 2,
+    "nodoOrigenId": 8,
+    "nodoObjetivoId": 17,
+    "nodoOrigen": {
+      "id": 8,
+      "posicionX": 6,
+      "posicionY": 9,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 9,
+        "nombre": "Oradea"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 17,
+      "posicionX": 34,
+      "posicionY": 18,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 18,
+        "nombre": "Sibiu"
+      }
+    }
+  },
+  {
+    "id": 16,
+    "tipo": "Dirigida",
+    "ponderacion": 80,
+    "grafoId": 2,
+    "nodoOrigenId": 17,
+    "nodoObjetivoId": 16,
+    "nodoOrigen": {
+      "id": 17,
+      "posicionX": 34,
+      "posicionY": 18,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 18,
+        "nombre": "Sibiu"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 16,
+      "posicionX": 37,
+      "posicionY": 24,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 17,
+        "nombre": "Rimnicu Vilcea"
+      }
+    }
+  },
+  {
+    "id": 17,
+    "tipo": "Dirigida",
+    "ponderacion": 146,
+    "grafoId": 2,
+    "nodoOrigenId": 16,
+    "nodoObjetivoId": 15,
+    "nodoOrigen": {
+      "id": 16,
+      "posicionX": 37,
+      "posicionY": 24,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 17,
+        "nombre": "Rimnicu Vilcea"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 15,
+      "posicionX": 40,
+      "posicionY": 37,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 16,
+        "nombre": "Craiova"
+      }
+    }
+  },
+  {
+    "id": 18,
+    "tipo": "Dirigida",
+    "ponderacion": 120,
+    "grafoId": 2,
+    "nodoOrigenId": 15,
+    "nodoObjetivoId": 14,
+    "nodoOrigen": {
+      "id": 15,
+      "posicionX": 40,
+      "posicionY": 37,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 16,
+        "nombre": "Craiova"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 14,
+      "posicionX": 14,
+      "posicionY": 33,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 15,
+        "nombre": "Dobreta"
+      }
+    }
+  },
+  {
+    "id": 19,
+    "tipo": "Dirigida",
+    "ponderacion": 75,
+    "grafoId": 2,
+    "nodoOrigenId": 14,
+    "nodoObjetivoId": 13,
+    "nodoOrigen": {
+      "id": 14,
+      "posicionX": 14,
+      "posicionY": 33,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 15,
+        "nombre": "Dobreta"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 13,
+      "posicionX": 18,
+      "posicionY": 32,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 14,
+        "nombre": "Melhadia"
+      }
+    }
+  },
+  {
+    "id": 20,
+    "tipo": "Dirigida",
+    "ponderacion": 70,
+    "grafoId": 2,
+    "nodoOrigenId": 13,
+    "nodoObjetivoId": 12,
+    "nodoOrigen": {
+      "id": 13,
+      "posicionX": 18,
+      "posicionY": 32,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 14,
+        "nombre": "Melhadia"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 12,
+      "posicionX": 16,
+      "posicionY": 27,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 13,
+        "nombre": "Lugoj"
+      }
+    }
+  },
+  {
+    "id": 21,
+    "tipo": "Dirigida",
+    "ponderacion": 111,
+    "grafoId": 2,
+    "nodoOrigenId": 12,
+    "nodoObjetivoId": 11,
+    "nodoOrigen": {
+      "id": 12,
+      "posicionX": 16,
+      "posicionY": 27,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 13,
+        "nombre": "Lugoj"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 11,
+      "posicionX": 4,
+      "posicionY": 25,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 12,
+        "nombre": "Timisoara"
+      }
+    }
+  },
+  {
+    "id": 22,
+    "tipo": "Dirigida",
+    "ponderacion": 118,
+    "grafoId": 2,
+    "nodoOrigenId": 11,
+    "nodoObjetivoId": 10,
+    "nodoOrigen": {
+      "id": 11,
+      "posicionX": 4,
+      "posicionY": 25,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 12,
+        "nombre": "Timisoara"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 10,
+      "posicionX": 3,
+      "posicionY": 15,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 11,
+        "nombre": "Arad"
+      }
+    }
+  },
+  {
+    "id": 23,
+    "tipo": "Dirigida",
+    "ponderacion": 118,
+    "grafoId": 2,
+    "nodoOrigenId": 10,
+    "nodoObjetivoId": 9,
+    "nodoOrigen": {
+      "id": 10,
+      "posicionX": 3,
+      "posicionY": 15,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 11,
+        "nombre": "Arad"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 9,
+      "posicionX": 4,
+      "posicionY": 12,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 10,
+        "nombre": "Zerind"
+      }
+    }
+  },
+  {
+    "id": 24,
+    "tipo": "Dirigida",
+    "ponderacion": 71,
+    "grafoId": 2,
+    "nodoOrigenId": 9,
+    "nodoObjetivoId": 8,
+    "nodoOrigen": {
+      "id": 9,
+      "posicionX": 4,
+      "posicionY": 12,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 10,
+        "nombre": "Zerind"
+      }
+    },
+    "nodoObjetivo": {
+      "id": 8,
+      "posicionX": 6,
+      "posicionY": 9,
+      "grafoId": 2,
+      "ciudad": {
+        "id": 9,
+        "nombre": "Oradea"
+      }
+    }
+  }
+]
+
+#Grafos
+{
+  "id": 2,
+  "nombre": "Mapa de Carreteras de Parte de Rumania",
+  "nodos": [
+    {
+      "id": 8,
+      "posicionX": 6,
+      "posicionY": 9,
+      "grafoId": 2,
+      "aristasDeSalida": [
+        {
+          "id": 3,
+          "tipo": "Dirigida",
+          "ponderacion": 71,
+          "grafoId": 2,
+          "nodoOrigenId": 8,
+          "nodoObjetivoId": 9,
+          "nodoOrigen": {
+            "id": 8,
+            "posicionX": 6,
+            "posicionY": 9,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 9,
+            "posicionX": 4,
+            "posicionY": 12,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 15,
+          "tipo": "Dirigida",
+          "ponderacion": 151,
+          "grafoId": 2,
+          "nodoOrigenId": 8,
+          "nodoObjetivoId": 17,
+          "nodoOrigen": {
+            "id": 8,
+            "posicionX": 6,
+            "posicionY": 9,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 17,
+            "posicionX": 34,
+            "posicionY": 18,
+            "grafoId": 2
+          }
+        }
+      ],
+      "aristasDeEntrada": [
+        {
+          "id": 24,
+          "tipo": "Dirigida",
+          "ponderacion": 71,
+          "grafoId": 2,
+          "nodoOrigenId": 9,
+          "nodoObjetivoId": 8,
+          "nodoOrigen": {
+            "id": 9,
+            "posicionX": 4,
+            "posicionY": 12,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 8,
+            "posicionX": 6,
+            "posicionY": 9,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 14,
+          "tipo": "Dirigida",
+          "ponderacion": 151,
+          "grafoId": 2,
+          "nodoOrigenId": 17,
+          "nodoObjetivoId": 8,
+          "nodoOrigen": {
+            "id": 17,
+            "posicionX": 34,
+            "posicionY": 18,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 8,
+            "posicionX": 6,
+            "posicionY": 9,
+            "grafoId": 2
+          }
+        }
+      ],
+      "ciudad": {
+        "id": 9,
+        "nombre": "Oradea"
+      }
+    },
+    {
+      "id": 9,
+      "posicionX": 4,
+      "posicionY": 12,
+      "grafoId": 2,
+      "aristasDeSalida": [
+        {
+          "id": 4,
+          "tipo": "Dirigida",
+          "ponderacion": 75,
+          "grafoId": 2,
+          "nodoOrigenId": 9,
+          "nodoObjetivoId": 10,
+          "nodoOrigen": {
+            "id": 9,
+            "posicionX": 4,
+            "posicionY": 12,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 10,
+            "posicionX": 3,
+            "posicionY": 15,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 24,
+          "tipo": "Dirigida",
+          "ponderacion": 71,
+          "grafoId": 2,
+          "nodoOrigenId": 9,
+          "nodoObjetivoId": 8,
+          "nodoOrigen": {
+            "id": 9,
+            "posicionX": 4,
+            "posicionY": 12,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 8,
+            "posicionX": 6,
+            "posicionY": 9,
+            "grafoId": 2
+          }
+        }
+      ],
+      "aristasDeEntrada": [
+        {
+          "id": 23,
+          "tipo": "Dirigida",
+          "ponderacion": 118,
+          "grafoId": 2,
+          "nodoOrigenId": 10,
+          "nodoObjetivoId": 9,
+          "nodoOrigen": {
+            "id": 10,
+            "posicionX": 3,
+            "posicionY": 15,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 9,
+            "posicionX": 4,
+            "posicionY": 12,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 3,
+          "tipo": "Dirigida",
+          "ponderacion": 71,
+          "grafoId": 2,
+          "nodoOrigenId": 8,
+          "nodoObjetivoId": 9,
+          "nodoOrigen": {
+            "id": 8,
+            "posicionX": 6,
+            "posicionY": 9,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 9,
+            "posicionX": 4,
+            "posicionY": 12,
+            "grafoId": 2
+          }
+        }
+      ],
+      "ciudad": {
+        "id": 10,
+        "nombre": "Zerind"
+      }
+    },
+    {
+      "id": 10,
+      "posicionX": 3,
+      "posicionY": 15,
+      "grafoId": 2,
+      "aristasDeSalida": [
+        {
+          "id": 5,
+          "tipo": "Dirigida",
+          "ponderacion": 118,
+          "grafoId": 2,
+          "nodoOrigenId": 10,
+          "nodoObjetivoId": 11,
+          "nodoOrigen": {
+            "id": 10,
+            "posicionX": 3,
+            "posicionY": 15,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 11,
+            "posicionX": 4,
+            "posicionY": 25,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 13,
+          "tipo": "Dirigida",
+          "ponderacion": 140,
+          "grafoId": 2,
+          "nodoOrigenId": 10,
+          "nodoObjetivoId": 17,
+          "nodoOrigen": {
+            "id": 10,
+            "posicionX": 3,
+            "posicionY": 15,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 17,
+            "posicionX": 34,
+            "posicionY": 18,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 23,
+          "tipo": "Dirigida",
+          "ponderacion": 118,
+          "grafoId": 2,
+          "nodoOrigenId": 10,
+          "nodoObjetivoId": 9,
+          "nodoOrigen": {
+            "id": 10,
+            "posicionX": 3,
+            "posicionY": 15,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 9,
+            "posicionX": 4,
+            "posicionY": 12,
+            "grafoId": 2
+          }
+        }
+      ],
+      "aristasDeEntrada": [
+        {
+          "id": 22,
+          "tipo": "Dirigida",
+          "ponderacion": 118,
+          "grafoId": 2,
+          "nodoOrigenId": 11,
+          "nodoObjetivoId": 10,
+          "nodoOrigen": {
+            "id": 11,
+            "posicionX": 4,
+            "posicionY": 25,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 10,
+            "posicionX": 3,
+            "posicionY": 15,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 12,
+          "tipo": "Dirigida",
+          "ponderacion": 140,
+          "grafoId": 2,
+          "nodoOrigenId": 17,
+          "nodoObjetivoId": 10,
+          "nodoOrigen": {
+            "id": 17,
+            "posicionX": 34,
+            "posicionY": 18,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 10,
+            "posicionX": 3,
+            "posicionY": 15,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 4,
+          "tipo": "Dirigida",
+          "ponderacion": 75,
+          "grafoId": 2,
+          "nodoOrigenId": 9,
+          "nodoObjetivoId": 10,
+          "nodoOrigen": {
+            "id": 9,
+            "posicionX": 4,
+            "posicionY": 12,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 10,
+            "posicionX": 3,
+            "posicionY": 15,
+            "grafoId": 2
+          }
+        }
+      ],
+      "ciudad": {
+        "id": 11,
+        "nombre": "Arad"
+      }
+    },
+    {
+      "id": 11,
+      "posicionX": 4,
+      "posicionY": 25,
+      "grafoId": 2,
+      "aristasDeSalida": [
+        {
+          "id": 6,
+          "tipo": "Dirigida",
+          "ponderacion": 111,
+          "grafoId": 2,
+          "nodoOrigenId": 11,
+          "nodoObjetivoId": 12,
+          "nodoOrigen": {
+            "id": 11,
+            "posicionX": 4,
+            "posicionY": 25,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 12,
+            "posicionX": 16,
+            "posicionY": 27,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 22,
+          "tipo": "Dirigida",
+          "ponderacion": 118,
+          "grafoId": 2,
+          "nodoOrigenId": 11,
+          "nodoObjetivoId": 10,
+          "nodoOrigen": {
+            "id": 11,
+            "posicionX": 4,
+            "posicionY": 25,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 10,
+            "posicionX": 3,
+            "posicionY": 15,
+            "grafoId": 2
+          }
+        }
+      ],
+      "aristasDeEntrada": [
+        {
+          "id": 21,
+          "tipo": "Dirigida",
+          "ponderacion": 111,
+          "grafoId": 2,
+          "nodoOrigenId": 12,
+          "nodoObjetivoId": 11,
+          "nodoOrigen": {
+            "id": 12,
+            "posicionX": 16,
+            "posicionY": 27,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 11,
+            "posicionX": 4,
+            "posicionY": 25,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 5,
+          "tipo": "Dirigida",
+          "ponderacion": 118,
+          "grafoId": 2,
+          "nodoOrigenId": 10,
+          "nodoObjetivoId": 11,
+          "nodoOrigen": {
+            "id": 10,
+            "posicionX": 3,
+            "posicionY": 15,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 11,
+            "posicionX": 4,
+            "posicionY": 25,
+            "grafoId": 2
+          }
+        }
+      ],
+      "ciudad": {
+        "id": 12,
+        "nombre": "Timisoara"
+      }
+    },
+    {
+      "id": 12,
+      "posicionX": 16,
+      "posicionY": 27,
+      "grafoId": 2,
+      "aristasDeSalida": [
+        {
+          "id": 7,
+          "tipo": "Dirigida",
+          "ponderacion": 70,
+          "grafoId": 2,
+          "nodoOrigenId": 12,
+          "nodoObjetivoId": 13,
+          "nodoOrigen": {
+            "id": 12,
+            "posicionX": 16,
+            "posicionY": 27,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 13,
+            "posicionX": 18,
+            "posicionY": 32,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 21,
+          "tipo": "Dirigida",
+          "ponderacion": 111,
+          "grafoId": 2,
+          "nodoOrigenId": 12,
+          "nodoObjetivoId": 11,
+          "nodoOrigen": {
+            "id": 12,
+            "posicionX": 16,
+            "posicionY": 27,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 11,
+            "posicionX": 4,
+            "posicionY": 25,
+            "grafoId": 2
+          }
+        }
+      ],
+      "aristasDeEntrada": [
+        {
+          "id": 20,
+          "tipo": "Dirigida",
+          "ponderacion": 70,
+          "grafoId": 2,
+          "nodoOrigenId": 13,
+          "nodoObjetivoId": 12,
+          "nodoOrigen": {
+            "id": 13,
+            "posicionX": 18,
+            "posicionY": 32,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 12,
+            "posicionX": 16,
+            "posicionY": 27,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 6,
+          "tipo": "Dirigida",
+          "ponderacion": 111,
+          "grafoId": 2,
+          "nodoOrigenId": 11,
+          "nodoObjetivoId": 12,
+          "nodoOrigen": {
+            "id": 11,
+            "posicionX": 4,
+            "posicionY": 25,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 12,
+            "posicionX": 16,
+            "posicionY": 27,
+            "grafoId": 2
+          }
+        }
+      ],
+      "ciudad": {
+        "id": 13,
+        "nombre": "Lugoj"
+      }
+    },
+    {
+      "id": 13,
+      "posicionX": 18,
+      "posicionY": 32,
+      "grafoId": 2,
+      "aristasDeSalida": [
+        {
+          "id": 8,
+          "tipo": "Dirigida",
+          "ponderacion": 75,
+          "grafoId": 2,
+          "nodoOrigenId": 13,
+          "nodoObjetivoId": 14,
+          "nodoOrigen": {
+            "id": 13,
+            "posicionX": 18,
+            "posicionY": 32,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 14,
+            "posicionX": 14,
+            "posicionY": 33,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 20,
+          "tipo": "Dirigida",
+          "ponderacion": 70,
+          "grafoId": 2,
+          "nodoOrigenId": 13,
+          "nodoObjetivoId": 12,
+          "nodoOrigen": {
+            "id": 13,
+            "posicionX": 18,
+            "posicionY": 32,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 12,
+            "posicionX": 16,
+            "posicionY": 27,
+            "grafoId": 2
+          }
+        }
+      ],
+      "aristasDeEntrada": [
+        {
+          "id": 19,
+          "tipo": "Dirigida",
+          "ponderacion": 75,
+          "grafoId": 2,
+          "nodoOrigenId": 14,
+          "nodoObjetivoId": 13,
+          "nodoOrigen": {
+            "id": 14,
+            "posicionX": 14,
+            "posicionY": 33,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 13,
+            "posicionX": 18,
+            "posicionY": 32,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 7,
+          "tipo": "Dirigida",
+          "ponderacion": 70,
+          "grafoId": 2,
+          "nodoOrigenId": 12,
+          "nodoObjetivoId": 13,
+          "nodoOrigen": {
+            "id": 12,
+            "posicionX": 16,
+            "posicionY": 27,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 13,
+            "posicionX": 18,
+            "posicionY": 32,
+            "grafoId": 2
+          }
+        }
+      ],
+      "ciudad": {
+        "id": 14,
+        "nombre": "Melhadia"
+      }
+    },
+    {
+      "id": 14,
+      "posicionX": 14,
+      "posicionY": 33,
+      "grafoId": 2,
+      "aristasDeSalida": [
+        {
+          "id": 9,
+          "tipo": "Dirigida",
+          "ponderacion": 120,
+          "grafoId": 2,
+          "nodoOrigenId": 14,
+          "nodoObjetivoId": 15,
+          "nodoOrigen": {
+            "id": 14,
+            "posicionX": 14,
+            "posicionY": 33,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 15,
+            "posicionX": 40,
+            "posicionY": 37,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 19,
+          "tipo": "Dirigida",
+          "ponderacion": 75,
+          "grafoId": 2,
+          "nodoOrigenId": 14,
+          "nodoObjetivoId": 13,
+          "nodoOrigen": {
+            "id": 14,
+            "posicionX": 14,
+            "posicionY": 33,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 13,
+            "posicionX": 18,
+            "posicionY": 32,
+            "grafoId": 2
+          }
+        }
+      ],
+      "aristasDeEntrada": [
+        {
+          "id": 18,
+          "tipo": "Dirigida",
+          "ponderacion": 120,
+          "grafoId": 2,
+          "nodoOrigenId": 15,
+          "nodoObjetivoId": 14,
+          "nodoOrigen": {
+            "id": 15,
+            "posicionX": 40,
+            "posicionY": 37,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 14,
+            "posicionX": 14,
+            "posicionY": 33,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 8,
+          "tipo": "Dirigida",
+          "ponderacion": 75,
+          "grafoId": 2,
+          "nodoOrigenId": 13,
+          "nodoObjetivoId": 14,
+          "nodoOrigen": {
+            "id": 13,
+            "posicionX": 18,
+            "posicionY": 32,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 14,
+            "posicionX": 14,
+            "posicionY": 33,
+            "grafoId": 2
+          }
+        }
+      ],
+      "ciudad": {
+        "id": 15,
+        "nombre": "Dobreta"
+      }
+    },
+    {
+      "id": 15,
+      "posicionX": 40,
+      "posicionY": 37,
+      "grafoId": 2,
+      "aristasDeSalida": [
+        {
+          "id": 10,
+          "tipo": "Dirigida",
+          "ponderacion": 146,
+          "grafoId": 2,
+          "nodoOrigenId": 15,
+          "nodoObjetivoId": 16,
+          "nodoOrigen": {
+            "id": 15,
+            "posicionX": 40,
+            "posicionY": 37,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 16,
+            "posicionX": 37,
+            "posicionY": 24,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 18,
+          "tipo": "Dirigida",
+          "ponderacion": 120,
+          "grafoId": 2,
+          "nodoOrigenId": 15,
+          "nodoObjetivoId": 14,
+          "nodoOrigen": {
+            "id": 15,
+            "posicionX": 40,
+            "posicionY": 37,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 14,
+            "posicionX": 14,
+            "posicionY": 33,
+            "grafoId": 2
+          }
+        }
+      ],
+      "aristasDeEntrada": [
+        {
+          "id": 17,
+          "tipo": "Dirigida",
+          "ponderacion": 146,
+          "grafoId": 2,
+          "nodoOrigenId": 16,
+          "nodoObjetivoId": 15,
+          "nodoOrigen": {
+            "id": 16,
+            "posicionX": 37,
+            "posicionY": 24,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 15,
+            "posicionX": 40,
+            "posicionY": 37,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 9,
+          "tipo": "Dirigida",
+          "ponderacion": 120,
+          "grafoId": 2,
+          "nodoOrigenId": 14,
+          "nodoObjetivoId": 15,
+          "nodoOrigen": {
+            "id": 14,
+            "posicionX": 14,
+            "posicionY": 33,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 15,
+            "posicionX": 40,
+            "posicionY": 37,
+            "grafoId": 2
+          }
+        }
+      ],
+      "ciudad": {
+        "id": 16,
+        "nombre": "Craiova"
+      }
+    },
+    {
+      "id": 16,
+      "posicionX": 37,
+      "posicionY": 24,
+      "grafoId": 2,
+      "aristasDeSalida": [
+        {
+          "id": 11,
+          "tipo": "Dirigida",
+          "ponderacion": 80,
+          "grafoId": 2,
+          "nodoOrigenId": 16,
+          "nodoObjetivoId": 17,
+          "nodoOrigen": {
+            "id": 16,
+            "posicionX": 37,
+            "posicionY": 24,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 17,
+            "posicionX": 34,
+            "posicionY": 18,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 17,
+          "tipo": "Dirigida",
+          "ponderacion": 146,
+          "grafoId": 2,
+          "nodoOrigenId": 16,
+          "nodoObjetivoId": 15,
+          "nodoOrigen": {
+            "id": 16,
+            "posicionX": 37,
+            "posicionY": 24,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 15,
+            "posicionX": 40,
+            "posicionY": 37,
+            "grafoId": 2
+          }
+        }
+      ],
+      "aristasDeEntrada": [
+        {
+          "id": 16,
+          "tipo": "Dirigida",
+          "ponderacion": 80,
+          "grafoId": 2,
+          "nodoOrigenId": 17,
+          "nodoObjetivoId": 16,
+          "nodoOrigen": {
+            "id": 17,
+            "posicionX": 34,
+            "posicionY": 18,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 16,
+            "posicionX": 37,
+            "posicionY": 24,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 10,
+          "tipo": "Dirigida",
+          "ponderacion": 146,
+          "grafoId": 2,
+          "nodoOrigenId": 15,
+          "nodoObjetivoId": 16,
+          "nodoOrigen": {
+            "id": 15,
+            "posicionX": 40,
+            "posicionY": 37,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 16,
+            "posicionX": 37,
+            "posicionY": 24,
+            "grafoId": 2
+          }
+        }
+      ],
+      "ciudad": {
+        "id": 17,
+        "nombre": "Rimnicu Vilcea"
+      }
+    },
+    {
+      "id": 17,
+      "posicionX": 34,
+      "posicionY": 18,
+      "grafoId": 2,
+      "aristasDeSalida": [
+        {
+          "id": 12,
+          "tipo": "Dirigida",
+          "ponderacion": 140,
+          "grafoId": 2,
+          "nodoOrigenId": 17,
+          "nodoObjetivoId": 10,
+          "nodoOrigen": {
+            "id": 17,
+            "posicionX": 34,
+            "posicionY": 18,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 10,
+            "posicionX": 3,
+            "posicionY": 15,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 14,
+          "tipo": "Dirigida",
+          "ponderacion": 151,
+          "grafoId": 2,
+          "nodoOrigenId": 17,
+          "nodoObjetivoId": 8,
+          "nodoOrigen": {
+            "id": 17,
+            "posicionX": 34,
+            "posicionY": 18,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 8,
+            "posicionX": 6,
+            "posicionY": 9,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 16,
+          "tipo": "Dirigida",
+          "ponderacion": 80,
+          "grafoId": 2,
+          "nodoOrigenId": 17,
+          "nodoObjetivoId": 16,
+          "nodoOrigen": {
+            "id": 17,
+            "posicionX": 34,
+            "posicionY": 18,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 16,
+            "posicionX": 37,
+            "posicionY": 24,
+            "grafoId": 2
+          }
+        }
+      ],
+      "aristasDeEntrada": [
+        {
+          "id": 15,
+          "tipo": "Dirigida",
+          "ponderacion": 151,
+          "grafoId": 2,
+          "nodoOrigenId": 8,
+          "nodoObjetivoId": 17,
+          "nodoOrigen": {
+            "id": 8,
+            "posicionX": 6,
+            "posicionY": 9,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 17,
+            "posicionX": 34,
+            "posicionY": 18,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 13,
+          "tipo": "Dirigida",
+          "ponderacion": 140,
+          "grafoId": 2,
+          "nodoOrigenId": 10,
+          "nodoObjetivoId": 17,
+          "nodoOrigen": {
+            "id": 10,
+            "posicionX": 3,
+            "posicionY": 15,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 17,
+            "posicionX": 34,
+            "posicionY": 18,
+            "grafoId": 2
+          }
+        },
+        {
+          "id": 11,
+          "tipo": "Dirigida",
+          "ponderacion": 80,
+          "grafoId": 2,
+          "nodoOrigenId": 16,
+          "nodoObjetivoId": 17,
+          "nodoOrigen": {
+            "id": 16,
+            "posicionX": 37,
+            "posicionY": 24,
+            "grafoId": 2
+          },
+          "nodoObjetivo": {
+            "id": 17,
+            "posicionX": 34,
+            "posicionY": 18,
+            "grafoId": 2
+          }
+        }
+      ],
+      "ciudad": {
+        "id": 18,
+        "nombre": "Sibiu"
+      }
+    }
+  ],
+  "aristas": [
+    {
+      "id": 24,
+      "tipo": "Dirigida",
+      "ponderacion": 71,
+      "grafoId": 2,
+      "nodoOrigenId": 9,
+      "nodoObjetivoId": 8,
+      "nodoOrigen": {
+        "id": 9,
+        "posicionX": 4,
+        "posicionY": 12,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 8,
+        "posicionX": 6,
+        "posicionY": 9,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 14,
+      "tipo": "Dirigida",
+      "ponderacion": 151,
+      "grafoId": 2,
+      "nodoOrigenId": 17,
+      "nodoObjetivoId": 8,
+      "nodoOrigen": {
+        "id": 17,
+        "posicionX": 34,
+        "posicionY": 18,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 8,
+        "posicionX": 6,
+        "posicionY": 9,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 3,
+      "tipo": "Dirigida",
+      "ponderacion": 71,
+      "grafoId": 2,
+      "nodoOrigenId": 8,
+      "nodoObjetivoId": 9,
+      "nodoOrigen": {
+        "id": 8,
+        "posicionX": 6,
+        "posicionY": 9,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 9,
+        "posicionX": 4,
+        "posicionY": 12,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 23,
+      "tipo": "Dirigida",
+      "ponderacion": 118,
+      "grafoId": 2,
+      "nodoOrigenId": 10,
+      "nodoObjetivoId": 9,
+      "nodoOrigen": {
+        "id": 10,
+        "posicionX": 3,
+        "posicionY": 15,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 9,
+        "posicionX": 4,
+        "posicionY": 12,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 4,
+      "tipo": "Dirigida",
+      "ponderacion": 75,
+      "grafoId": 2,
+      "nodoOrigenId": 9,
+      "nodoObjetivoId": 10,
+      "nodoOrigen": {
+        "id": 9,
+        "posicionX": 4,
+        "posicionY": 12,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 10,
+        "posicionX": 3,
+        "posicionY": 15,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 22,
+      "tipo": "Dirigida",
+      "ponderacion": 118,
+      "grafoId": 2,
+      "nodoOrigenId": 11,
+      "nodoObjetivoId": 10,
+      "nodoOrigen": {
+        "id": 11,
+        "posicionX": 4,
+        "posicionY": 25,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 10,
+        "posicionX": 3,
+        "posicionY": 15,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 12,
+      "tipo": "Dirigida",
+      "ponderacion": 140,
+      "grafoId": 2,
+      "nodoOrigenId": 17,
+      "nodoObjetivoId": 10,
+      "nodoOrigen": {
+        "id": 17,
+        "posicionX": 34,
+        "posicionY": 18,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 10,
+        "posicionX": 3,
+        "posicionY": 15,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 5,
+      "tipo": "Dirigida",
+      "ponderacion": 118,
+      "grafoId": 2,
+      "nodoOrigenId": 10,
+      "nodoObjetivoId": 11,
+      "nodoOrigen": {
+        "id": 10,
+        "posicionX": 3,
+        "posicionY": 15,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 11,
+        "posicionX": 4,
+        "posicionY": 25,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 21,
+      "tipo": "Dirigida",
+      "ponderacion": 111,
+      "grafoId": 2,
+      "nodoOrigenId": 12,
+      "nodoObjetivoId": 11,
+      "nodoOrigen": {
+        "id": 12,
+        "posicionX": 16,
+        "posicionY": 27,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 11,
+        "posicionX": 4,
+        "posicionY": 25,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 6,
+      "tipo": "Dirigida",
+      "ponderacion": 111,
+      "grafoId": 2,
+      "nodoOrigenId": 11,
+      "nodoObjetivoId": 12,
+      "nodoOrigen": {
+        "id": 11,
+        "posicionX": 4,
+        "posicionY": 25,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 12,
+        "posicionX": 16,
+        "posicionY": 27,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 20,
+      "tipo": "Dirigida",
+      "ponderacion": 70,
+      "grafoId": 2,
+      "nodoOrigenId": 13,
+      "nodoObjetivoId": 12,
+      "nodoOrigen": {
+        "id": 13,
+        "posicionX": 18,
+        "posicionY": 32,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 12,
+        "posicionX": 16,
+        "posicionY": 27,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 7,
+      "tipo": "Dirigida",
+      "ponderacion": 70,
+      "grafoId": 2,
+      "nodoOrigenId": 12,
+      "nodoObjetivoId": 13,
+      "nodoOrigen": {
+        "id": 12,
+        "posicionX": 16,
+        "posicionY": 27,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 13,
+        "posicionX": 18,
+        "posicionY": 32,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 19,
+      "tipo": "Dirigida",
+      "ponderacion": 75,
+      "grafoId": 2,
+      "nodoOrigenId": 14,
+      "nodoObjetivoId": 13,
+      "nodoOrigen": {
+        "id": 14,
+        "posicionX": 14,
+        "posicionY": 33,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 13,
+        "posicionX": 18,
+        "posicionY": 32,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 8,
+      "tipo": "Dirigida",
+      "ponderacion": 75,
+      "grafoId": 2,
+      "nodoOrigenId": 13,
+      "nodoObjetivoId": 14,
+      "nodoOrigen": {
+        "id": 13,
+        "posicionX": 18,
+        "posicionY": 32,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 14,
+        "posicionX": 14,
+        "posicionY": 33,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 18,
+      "tipo": "Dirigida",
+      "ponderacion": 120,
+      "grafoId": 2,
+      "nodoOrigenId": 15,
+      "nodoObjetivoId": 14,
+      "nodoOrigen": {
+        "id": 15,
+        "posicionX": 40,
+        "posicionY": 37,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 14,
+        "posicionX": 14,
+        "posicionY": 33,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 9,
+      "tipo": "Dirigida",
+      "ponderacion": 120,
+      "grafoId": 2,
+      "nodoOrigenId": 14,
+      "nodoObjetivoId": 15,
+      "nodoOrigen": {
+        "id": 14,
+        "posicionX": 14,
+        "posicionY": 33,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 15,
+        "posicionX": 40,
+        "posicionY": 37,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 17,
+      "tipo": "Dirigida",
+      "ponderacion": 146,
+      "grafoId": 2,
+      "nodoOrigenId": 16,
+      "nodoObjetivoId": 15,
+      "nodoOrigen": {
+        "id": 16,
+        "posicionX": 37,
+        "posicionY": 24,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 15,
+        "posicionX": 40,
+        "posicionY": 37,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 10,
+      "tipo": "Dirigida",
+      "ponderacion": 146,
+      "grafoId": 2,
+      "nodoOrigenId": 15,
+      "nodoObjetivoId": 16,
+      "nodoOrigen": {
+        "id": 15,
+        "posicionX": 40,
+        "posicionY": 37,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 16,
+        "posicionX": 37,
+        "posicionY": 24,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 16,
+      "tipo": "Dirigida",
+      "ponderacion": 80,
+      "grafoId": 2,
+      "nodoOrigenId": 17,
+      "nodoObjetivoId": 16,
+      "nodoOrigen": {
+        "id": 17,
+        "posicionX": 34,
+        "posicionY": 18,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 16,
+        "posicionX": 37,
+        "posicionY": 24,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 15,
+      "tipo": "Dirigida",
+      "ponderacion": 151,
+      "grafoId": 2,
+      "nodoOrigenId": 8,
+      "nodoObjetivoId": 17,
+      "nodoOrigen": {
+        "id": 8,
+        "posicionX": 6,
+        "posicionY": 9,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 17,
+        "posicionX": 34,
+        "posicionY": 18,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 13,
+      "tipo": "Dirigida",
+      "ponderacion": 140,
+      "grafoId": 2,
+      "nodoOrigenId": 10,
+      "nodoObjetivoId": 17,
+      "nodoOrigen": {
+        "id": 10,
+        "posicionX": 3,
+        "posicionY": 15,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 17,
+        "posicionX": 34,
+        "posicionY": 18,
+        "grafoId": 2
+      }
+    },
+    {
+      "id": 11,
+      "tipo": "Dirigida",
+      "ponderacion": 80,
+      "grafoId": 2,
+      "nodoOrigenId": 16,
+      "nodoObjetivoId": 17,
+      "nodoOrigen": {
+        "id": 16,
+        "posicionX": 37,
+        "posicionY": 24,
+        "grafoId": 2
+      },
+      "nodoObjetivo": {
+        "id": 17,
+        "posicionX": 34,
+        "posicionY": 18,
+        "grafoId": 2
+      }
+    }
+  ]
+}

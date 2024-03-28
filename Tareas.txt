@@ -1,0 +1,2 @@
+1- Crear la estructura en clases del servidor, esto implica, modulos, controladores, servicios, entidades de la base de datos
+2- Luego por supuesto definir la entidades y sus relaciones
